@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+
+.app-topbar {
+    display: flex;
+    background-color: rgba(240, 216, 4, 0.897);
+    justify-items: center;
+}
+
+.app-title {
+    display: flex;
+    align-items: center;
+}
+
+.app-title img {
+    z-index: 500;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid #252524;
+    padding: 3px 2px;
+    background-color: #252524;
+}
+
+.app-content {
+    background-color: #252524;
+    position: relative;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6rem;
+    width: 80%;
+    margin: auto;
+}
+
+.header-text span {
+    font-size: 15px;
+    color: rgba(252, 245, 237, 0.904);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header-text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+    color: rgba(240, 216, 4, 0.897);
+
+}
+
+.header-text h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: rgba(240, 216, 4, 0.616);
+}
+
+.header-text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(252, 245, 237, 0.904);
+    margin-top: 1rem;
+}
+
+/* ------------------About Page-------------------- */
+
+.about-me {
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.about-me-main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me-content {
+    margin-top: 2rem;
+}
+
+.about-me-content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(252, 245, 237, 0.904);
+}
+
+.about-me-content span {
+    color: rgba(240, 216, 4, 0.897);
+}
+
+.skills {
+    width: 90%;
+    margin: auto;
+}
+
+.skills h6 {
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 1rem;
+    color: rgba(243, 237, 229, 0.952);
+    overflow-y: hidden;
+}
+
+.list-skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list-skills p {
+    color: rgba(243, 237, 229, 0.952);
+    text-indent: 5px;
+    margin-top: 1rem;
+}
+
+.skills-li li {
+    list-style-type: "> ";
+    text-indent: 15px;
+}
+
+li {
+    list-style-type: none;
+    z-index: 500;
+    color: rgba(240, 216, 4, 0.897);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+/* -------------------- Experience -------------------- */
+
+.experience {
+    padding: 3rem 0;
+    width: 90%;
+    margin: auto;
+}
+
+.my-experience-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.info h6 {
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 1rem;
+    color: rgba(243, 237, 229, 0.89);
+    overflow-y: hidden;
+}
+
+.info span {
+    font-style: italic;
+    color: rgba(243, 237, 229, 0.575);
+}
+
+.info-li {
+    margin-top: 1rem;
+}
+
+.info-li li {
+    list-style-type: disc;
+    text-indent: 5px;
+}
+
+.date {
+    font-family: 'Roboto Mono', monospace;
+    color: rgba(243, 237, 229, 0.575);
+    margin-top: 1rem;
+}
+
+
+/* -------------- Projects ---------------- */
+.projects {
+    width: 90%;
+    margin: auto;
+    padding: 1.5rem 0;
+}
+
+.tradexpress {
+    margin: 1.5rem 0.5rem;
+    border: 1px solid;
+    border: none;
+    box-shadow: 0px 0px 15px 5px #031720d8;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.tradexpress h6 {
+    font-family: 'Roboto Mono', monospace;
+    color: rgba(243, 237, 229, 0.89);
+    overflow-y: hidden;
+}
+
+.tradexpress span {
+    font-style: italic;
+    color: rgba(240, 216, 4, 0.897);
+    font-size: 13px;
+}
+
+.tradexpress a {
+    font-style: italic;
+    color: rgba(240, 216, 4, 0.616);
+}
+
+.tradexpress li {
+    list-style-type: square;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(243, 237, 229, 0.575);
+}
+
+#more {
+    display: none;
+}
+
+.other-projects h4 {
+    color: rgba(243, 237, 229, 0.89);
+    font-family: 'Roboto Mono', monospace;
+    overflow-y: hidden;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.tradexpress p {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(243, 237, 229, 0.575);
+}
+
+.sourcing {
+    text-align: left;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+}
+
+.goBtn {
+    width: 15rem;
+    height: 2rem;
+    background-color: #031720d8;
+    border: none;
+}
+
+.sourcing a {
+    text-decoration: none;
+}
+
+#myBtn {
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+    padding: 0.5rem 1rem;
+    margin: auto;
+    background: transparent;
+    color: rgba(240, 216, 4, 0.897);
+    border: 1px solid rgba(240, 216, 4, 0.897);
+}
+
+.goBtn:hover,
+#myBtn:hover {
+    background-color: rgba(240, 216, 4, 0.603);
+    color: white;
+}
+
+.certification {
+    padding-top: 2rem;
+    width: 90%;
+    margin: auto;
+}
+
+.certification p {
+    color: rgba(240, 216, 4, 0.897);
+}
+
+/* ---------------------- Contact Page------------------------ */
+.contacts {
+    padding: 2rem 0;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-header h3 {
+    color: rgba(243, 237, 229, 0.89);
+    font-family: 'Roboto Mono', monospace;
+    overflow-y: hidden;
+}
+
+.contact-header .intouch {
+    color: rgba(243, 237, 229, 0.575);
+    padding-bottom: 0.2rem;
+}
+
+.sub-contact-content {
+    margin: 1rem 0;
+}
+
+.linking,
+.links {
+    color: rgba(240, 216, 4, 0.897);
+    font-family: 'Roboto', sans-serif;
+    font-size: 500;
+}
+
+.sub-contact-content1 a {
+    color: rgba(243, 237, 229, 0.575);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.sub-contact-content1 a:hover {
+    color: rgba(240, 216, 4, 0.897);
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+.madewithlove {
+    margin: 1rem 0;
+    color: rgba(243, 237, 229, 0.575);
+    letter-spacing: 2px;
+}
+
+.madewithlove a {
+    margin: 1rem 0;
+    color: rgba(243, 237, 229, 0.575);
+    text-decoration: none;
+}
+
+.socialmedia a:hover,
+.madewithlove a:hover {
+    color: rgba(240, 216, 4, 0.897);
+}
